@@ -16,12 +16,6 @@ func GreetSomeone() (string, int) {
 	return uName, age
 }
 
-func SayGoodbye(name string) {
-
-	fmt.Printf("Goodbye to %s\n", name)
-
-}
-
 func main() {
 
 	name, age := GreetSomeone()
